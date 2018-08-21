@@ -40,7 +40,7 @@ public class Main {
             int ParseGender = Integer.parseInt(gender);
 
             //getting for date people born after 1999
-            if (getYear.startsWith("0")) {
+            if (getYear.startsWith("0")|| getYear.startsWith("1") ) {
 
                 concartinate20 = "20" + getYear;
                 System.out.println(getday + "/" + getMonth + "/" + concartinate20);
